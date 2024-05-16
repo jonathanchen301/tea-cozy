@@ -3,7 +3,6 @@
     font-size: 22px;
     color: seashell;
     background-color: black;
-    opacity: 0.9;
 }
 
 /* Navbar section */
@@ -110,4 +109,48 @@
 .tea-month .picture-section .caption {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+/* Locations Section */
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    height: 500px;
+    width: 1200px;
+    margin-left: 150px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1i20j6b*_ga*ODEwNjE2NDk4Ni4xNzEzMjczODUz*_ga_3LRZM6TM9L*MTcxNTYyMDEzNy4xOS4xLjE3MTU2MjI2NzUuNTguMC4w);
+    background-size: cover;
+    background-position: center -25px;
+}
+
+.locations .title {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    text-emphasis: bold;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.locations .grids {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 50px;
+}
+
+.locations .grids .grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 1);
 }
