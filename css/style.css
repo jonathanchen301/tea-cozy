@@ -154,3 +154,37 @@
     margin-right: 20px;
     background-color: rgba(0, 0, 0, 1);
 }
+
+/* Footer Section */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+
+.footer h2 {
+    font-size: 36px;
+    margin-top: 5px;
+}
+
+.footer h5 {
+    margin-top: 15px;
+}
+
+.footer p {
+    margin-top: 0px;
+}
+
+/* Copyright Section */
+
+.copyright {
+    display: flex;
+    padding-left: 20px;
+}
+
+.copyright p {
+    margin: 0px;
+
+}
